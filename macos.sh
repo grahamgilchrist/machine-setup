@@ -8,16 +8,24 @@ fi
 brew install bash
 brew install bash-completion
 brew install wget
+brew install lftp
 
 brew install git
 brew install git-extras
 brew install hub
 
+# Dev stuff needed by various 3rd party scripta
 brew install python
 brew install python3
+brew install node
 
+# Docker
 brew install boot2docker
 brew install docker-compose
+
+# Dev
+# Currently attempting to avoid installing any project specific dev tools and
+#  using docker for that instead
 
 # Install brew cask
 # brew install caskroom/cask/brew-cask
